@@ -1,0 +1,36 @@
+#espacamento .letter{
+    letter-spacing: 20px;
+}
+
+#espacamento .word{
+    word-spacing: 30px;
+}
+
+#espacamento .lines{
+    line-height: 1.8;
+}
+
+.align{
+    border: 1px solid blue;
+    font-size: 26px;
+    line-height: 2;
+    
+}
+
+.align .vsup{
+    display: inline;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.align .vcenter{
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.align .vbottom{
+    display: inline;
+    vertical-align: bottom;
+    font-size: 16px;
+}
