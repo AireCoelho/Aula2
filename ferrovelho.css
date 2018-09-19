@@ -5,15 +5,14 @@
 }
 
 .painel1{
-    background-color: #000;
-    color: #fff;
+    color: yellow;
     width: 400px;
     height: 100vh;
     position: relative;
     margin: 0;
     padding-top: 20px;
     float: left;
-    background-color:#2E8B57
+    background-color:#8B7D7B
 }
 
 .main{
@@ -50,7 +49,7 @@ body{
 .painel1 .image-container img{
     width: 100%;
     height: 50%;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .painel2 {
