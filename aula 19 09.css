@@ -34,3 +34,50 @@
     vertical-align: bottom;
     font-size: 16px;
 }
+
+
+.alinha-esquerda{
+    text-align: left;
+}
+
+.alinha-centro{
+    text-align: center
+}
+
+.alinha-direita{
+    text-align: right
+}
+
+.alinha-jutificar{
+    text-align: justify
+}
+
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.taxado{
+    text-decoration: line-through;
+}
+
+.blink{
+    text-decoration: blink;
+}
+
+.linha-sup{
+    text-decoration: overline;
+}
+
+#menu{
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+}
