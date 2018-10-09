@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.painel-lateral{
+    width: 100%;
+}
+
+.painel-imagem{
+    width: 100%;
+    position: relative;
+}
+
+.painel-imagem img{
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    bottom: 20px;
+    margin: 0 20px;
+}
+
+.painel-contato{
+    width: 100%;
+    padding: 15px;
+}
+
+.painel-contato{
+    width: 100%;
+    padding: 15px;
+}
+
+p i[class~="fa"]{
+    color: #009800
+}
+
+.descricao{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.painel-maior{
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.2), 0 4px 20px 0px rgba(0, 0, 0, 0.16)
+}

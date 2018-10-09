@@ -16,7 +16,7 @@
 
 .imagem img{
     max-width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .vermelho{
@@ -33,14 +33,34 @@
 
 @media (min-width:520px){
     .container{
-        
+        display: flex;
+        flex-wrap: wrap;
     }
     .imagem{
         width: 50%;
     }
     
      .imagem img{
-    height: 100%;
+        height: 100%;
     }
+    
+    .vermelho{
+        width: 50%;
+    }
+
 }
 
+@media (min-width:860px){
+ 
+    .imagem{
+        width: 33%;
+    }
+    
+    .vermelho{
+        width: 33%;
+    }
+
+    .azul{
+        width: 34%;
+    }
+}
