@@ -1,0 +1,93 @@
+$fontSize1: 64px;
+$fontSize2: 48px;
+$fontSize3: 24px;
+$fontDefault: 16px;
+
+$corDefault: #000;
+$corDestaque1: #4caf50;
+$corDestaque2: #2196f3;
+$corDestaque3: #f44336;
+$corInversa: #fff;
+
+$fundo1: #fff;
+$fundo2: #f1f1f1;
+$fundo3: #616161;
+$fundo4: #f44336;
+$fundo5: #000;
+$fundo6: #4cAf50;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+
+.card-action{
+    width: 30%;
+    background-color: $fundo5;
+    opacity: 0.6;
+    position: absolute;
+    color: $corInversa;
+    left: 20px;
+    top: 320px;
+    padding: 12px 24px;
+    border-radius: 8px;
+  
+
+    h3{
+        font-size: $fontSize3;
+        margin: 20px;
+        text-align: center;
+    }
+
+    hr{
+        border: 0;
+        border-top: 1px solid $fundo1;
+        height: 0px;
+        overflow: hidden;
+        opacity: 0.6;
+        display: block
+    }
+
+    p{
+        font-size: $fontDefault;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    &__button-action{
+        text-decoration: none;
+        color: $corInversa;
+        border: none;
+        border-radius: 5px;
+        background-color: $fundo6;
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    &:hover{
+        opacity: 1;
+    }
+    
+
+}
+
